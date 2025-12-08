@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://code.jquery.com/ui/1.13.3/themes/base/jquery-ui.css">
+    <link rel="stylesheet" href="/resources/demos/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <script src="https://code.jquery.com/jquery-3.7.1.js"></script>
+    <script src="https://code.jquery.com/ui/1.13.3/jquery-ui.js"></script>
+    <link href="reset.css" rel="stylesheet">
+    <link href="1.css" rel="stylesheet">
+    <link href="media.css" rel="stylesheet">
+     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+     integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY="
+     crossorigin=""/>
+    <title>Проект</title>
+</head>
+<body>
+
+    <div class="menu">
+        <img class="x" src="images/x.svg">
+        <nav>
+            <li class="m-link"><a href="#home">Home</a></li>
+            <li class="m-link"><a href="#about">Вступление</a></li>
+            <li class="m-link"><a href="#accordion">Карта</a></li>
+            <li class="m-link"><a href="#portfolio">Места</a></li>
+            <li class="m-link"><a href="#contacts">Команда</a></li>
+        </nav>
+        <div class="m2">
+            
+            <!-- <p class="ru-eng1">RU <span class="e">| ENG</span></p> -->
+        </div>
+    </div>
+
+
+    <header class="container">
+        <a class="nav-link"  href="#home">Home</a>
+        <a class="nav-link"  href="#about">Вступление</a>
+        <a class="nav-link"  href="#accordion">Карта</a>
+        <a class="nav-link"  href="#portfolio">Места</a>
+        <a class="nav-link"  href="#contacts">Команда</a>
+    </header>
+
+    <main>
+        <section id="home" class="namee container">
+            <div class="den-container">
+                    <div class="name-text">
+                        <h1>Пройдись по Пензенскому краю</h1>
+                    </div>
+                    <div class="Burger">
+                        
+                    </div>
+                </div>
+                <picture>
+                    <source srcset="images1/Пенза фото.jpg" media="(max-width: 1000px)">
+                    <img class="den" src="images1/Пенза фото 1.jpg">
+                </picture>
+        </section>
+
+        <section id="about" class="about-me">
+            <div class="about-me-text container">
+                <!-- <h2 class="about-me-h">Вступление</h2> -->
+                <p class="about-me-p about-me-p1">
+                 Всем привет! Мы – ученики Школы №60 г. Пензы участвуем в розыгрыше путевок на Ямал и хотим рассказать про наш регион. Пензенская область – уникальный регион с богатой историей. Здесь родились и жили поэты, писатели, артисты и другие деятели. 
+                 <!-- <span class="s">I'm interested in design and everything connected with it.</span> -->
+                </p>
+                <p class="about-me-p about-me-p2">
+                Мы хотим вам рассказать про интересные и значимые места нашего региона при помощи интерактивной карты. На ней отмечены достопримечательности, различные памятники.
+                </p>
+            </div>
+        </section>
+
+        
+        
+        <h2 id="accordion" class="about-me-h">Карта</h2>
+        <div id="map" class="container"></div>
+
+
+        
+        <!-- <section id="portfolio" class="Portfolio">
+            <div id="map"></div>
+            <div class="container p-container">
+                <h2 class="portfolio-h">Галерея</h2>
+                <img class="fashion-img" src="images/rx5800.png">
+                <a class="fashion">RX580</a>
+                <img class="reebok-img" src="images/rtx.png">
+                <a class="reebok">RTX4090</a>
+                <img class="braun-img" src="images/6700.jpg">
+                <a class="braun">RX 6700 XT</a>
+            </div>
+        </section> -->
+
+        
+    </main>
+    
+    
+    <h2 id="portfolio" class="about-me-h">Интересные и уникальные места региона</h2>
+    <div class="swiper mySwiper container">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide">
+                <h2 class="swiper_name">Музей-усадьба "Тарханы"</h2>
+                <p class="swiper-description">Описание Описание Описание Описание Описание Описание Описание Описание Описание Описание Описание Описание Описание Описание Описание Описание Описание Описание Описание Описание Описание Описание Описание Описание Описание Описание Описание Описание Описание Описание Описание Описание Описание Описание Описание Описание Описание Описание Описание Описание Описание Описание Описание Описание Описание Описание Описание Описание Описание Описание Описание Описание Описание Описание Описание Описание </p>
+                <img class="swiper_img" src="images1/Тарханы.jpg" alt="">
+            </div>
+            <div class="swiper-slide">
+                <h2 class="swiper_name">Памятник "Первопоселенец"</h2>
+                <p class="swiper-description">Описание Описание Описание Описание Описание Описание Описание Описание Описание Описание Описание Описание Описание Описание Описание Описание Описание Описание Описание Описание Описание Описание Описание Описание Описание Описание Описание Описание Описание Описание Описание Описание Описание Описание Описание Описание Описание Описание Описание Описание Описание Описание Описание Описание Описание Описание Описание Описание Описание Описание Описание Описание Описание Описание Описание Описание </p>
+                <img class="swiper_img" src="images1/Первопоселенец.jpg" alt="">
+            </div>
+            <div class="swiper-slide">
+                <h2 class="swiper_name">Музей одной картины</h2>
+                <p class="swiper-description">Описание Описание Описание Описание Описание Описание Описание Описание Описание Описание Описание Описание Описание Описание Описание Описание Описание Описание Описание Описание Описание Описание Описание Описание Описание Описание Описание Описание Описание Описание Описание Описание Описание Описание Описание Описание Описание Описание Описание Описание Описание Описание Описание Описание Описание Описание Описание Описание Описание Описание Описание Описание Описание Описание Описание Описание </p>
+                <img class="swiper_img" src="images1/Музей одной картины.jpg" alt="">
+            </div>
+            <div class="swiper-slide">
+                <h2 class="swiper_name">Планетарий</h2>
+                <p class="swiper-description">Описание Описание Описание Описание Описание Описание Описание Описание Описание Описание Описание Описание Описание Описание Описание Описание Описание Описание Описание Описание Описание Описание Описание Описание Описание Описание Описание Описание Описание Описание Описание Описание Описание Описание Описание Описание Описание Описание Описание Описание Описание Описание Описание Описание Описание Описание Описание Описание Описание Описание Описание Описание Описание Описание Описание Описание </p>
+                <img class="swiper_img" src="images1/Планетарий.jpg" alt="">
+            </div>
+            <div class="swiper-slide">
+                <h2 class="swiper_name">Арт-Объект «Пензяк толстопятый»</h2>
+                <p class="swiper-description">Описание Описание Описание Описание Описание Описание Описание Описание Описание Описание Описание Описание Описание Описание Описание Описание Описание Описание Описание Описание Описание Описание Описание Описание Описание Описание Описание Описание Описание Описание Описание Описание Описание Описание Описание Описание Описание Описание Описание Описание Описание Описание Описание Описание Описание Описание Описание Описание Описание Описание Описание Описание Описание Описание Описание Описание </p>
+                <img class="swiper_img" src="images1/Пензяк Толстопятый.jpg" alt="">
+            </div>
+        </div>
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+    </div>
+    
+    <section id="contacts" class="Contacts c-container">
+        <h2 class="contacts-h">Наша Команда</h2>
+        <p class="contacts-p1">Посмотрим, делать ли вообще этот пункт</p>
+        <button class="contacts-b"><a class="contacts-b-a" href="#">В начало</a></button>
+    </section>
+    
+    
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+  integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo="
+  crossorigin=""></script>
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+  <!-- Initialize Swiper -->
+  <script>
+    var swiper = new Swiper(".mySwiper", {
+      navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+      },
+    });
+  </script>
+    <script src="1.js"> </script>
+      <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+     integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo="
+     crossorigin=""></script>
+
+</body>
+</html>

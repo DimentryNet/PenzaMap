@@ -1,0 +1,95 @@
+@media(max-width: 1000px) {
+    header {
+        display: none;
+    }
+
+    .den {
+        margin: 0 auto;
+        display: block;
+    }
+
+    .Burger {
+        display: block;
+
+    }
+
+    h1 {
+        margin-right: 20px;
+        font-size: 40px;
+    }
+
+    .den-container {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .fashion-img, .reebok-img, .braun-img {
+        height: 370px;
+    }
+
+    .den-container {
+        padding: 0px 25px;
+    }
+
+    .about-me {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .swiper-slide img{
+            width: 365px;
+    }
+
+}
+
+@media(max-width: 1140px) {
+    .ru-eng {
+        display: none;
+    }
+}
+
+@media(max-width: 680px) {
+    .ru-eng {
+        display: none;
+    }
+
+    .Portfolio img{
+        max-width: 700px;
+    }
+
+    .skills-inc {
+        flex-direction: column;
+    }
+
+    .Photoshop {
+        padding-left: 0px;
+    }
+    
+    .Figma {
+        padding-right: 0px;
+    }
+
+    .skills-incs {
+        margin-bottom: 40px;
+    }
+
+    .name-text {
+        flex-direction: column;
+    }
+}
+
+
+
+@media(max-width: 850px) {
+    .fashion-img, .reebok-img, .braun-img {
+        height: 170px;
+    }
+
+    .bayan .active {
+display: none;
+    }
+
+    .place {
+        display: none;
+    }
+}

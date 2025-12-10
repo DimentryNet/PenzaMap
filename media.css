@@ -40,6 +40,10 @@
             width: 365px;
     }
 
+    .people {
+        flex-direction: column;
+    }
+
 }
 
 @media(max-width: 1140px) {

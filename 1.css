@@ -111,7 +111,7 @@ header {
 
 h1 {
     color: black;
-    font-size: 47.34px;
+    font-size: 32.34px;
     line-height: 58.61px;
     font-weight: 700;
     margin: 0 auto;
@@ -546,4 +546,21 @@ height: 700px;
   line-height: 23px;
 }
 
+.people {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 20px;
+}
+
+.com-img {
+    width: 300px;
+    padding: 15px
+}
+
+.com-des {
+    text-align: center;
+}
+
+
 #map { height: 500px; }
+
